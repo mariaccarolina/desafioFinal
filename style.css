@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+
+.navMobile{
+    display: none;
+}
+
+header{
+    background-color: #252525;
+    color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 3vw;
+    height: 5vh;
+}
+
+.logomarca{
+    margin-right: 10px;
+    width: 4vw;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.primeiraSessao{
+    background-image: url("./Web/Grupo\ 486.png");  
+}
+
+.primeiraSessao div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vh;
+    color: white;
+    font-size: 50px;
+}
+
+.pata{
+    width: 10vw;
+}
+
+.segundaSessao {
+    background-image: url("./Web/Interseção\ 16.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.segundaSessao div{
+    margin-left: 25px;
+    color: #3A342F;
+    width: 50%;
+    height: 50%;
+}
+
+section  h2{
+    font-size: 50px;
+}
+
+section p{
+    font-size: 27px;
+}
+
+ button{
+    padding: 20px;
+    border-radius: 40px;
+    width: 25vw;
+    margin-top: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.btn1{
+    color: #F4F2F3;
+    background-color: #3A342F;
+}
+
+.btn2{
+   color: #000000;
+   background-color: #FFFFFF;
+}
+
+.terceiraSessao{
+    background-image: url("./Web/Grupo\ 480.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.terceiraSessao div{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #F4F2F3;
+    margin-right: 30px;
+}
+
+.quartaSessao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quartaSessao img {
+    margin: 40px;
+    width: 15vw;
+}
+
+.quartaSessao p{
+    color: #FD6A9A;
+    font-size: 24px;
+}
+
+footer{
+    background-color: #EB4A7B;
+    color: #FFFFFF;
+}
+
+.navegacao{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35vh;
+}
+
+.navegacao h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.navegacao li{
+   margin: 10px;
+   font-size: 14px;
+}
+
+footer ul{
+    list-style: none;
+}
+header nav{
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+}

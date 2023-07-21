@@ -1,0 +1,107 @@
+
+@media (max-width:500px) {
+    .mobile{
+        display: none;
+    }
+
+    .logomarca, header img{
+        width: 10vw;
+    }
+
+    section p{
+        font-size: 10px;
+        margin-top: 8px;
+    }
+
+    .primeiraSessao{
+        background-image: url("./Web/mobileRosa.png");
+        height: 80vh;
+    }
+
+   section h2{
+        font-size: 24px;
+    }
+    
+    .btn1, .btn2{
+        margin-top: 12px;
+        font-size: 18px;
+        width: 45vw;
+    }
+    .segundaSessao div{
+        width: 80vw;
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+
+    section p{
+        font-size: 20px;
+    }
+    .primeiraSessao div{
+        margin-top: 10vh;
+    }
+
+    .pata{
+        width: 30vw;
+        margin-top: 20px;
+    }
+     .segundaSessao{
+        background-image: url("./Web/cachorroMObile.png");
+        align-items: flex-start;
+     }
+
+    .terceiraSessao{
+        background-image: url("./Web/cachorrorosaMobile.png");
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .terceiraSessao div{
+        width: 80vw;
+        height: 40vh;
+        margin: 60px 20px;
+    }
+
+    .quartaSessao {
+        flex-direction: column;
+        height: 12vh;
+    }
+
+    .quartaSessao p{
+        font-size: 15px;
+    }
+
+    .quartaSessao img{
+        margin: 10px 40px;
+        width: 18vw;
+    }
+     
+    .navegacao{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .navegacao h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navMobile{
+      display: block;
+    }
+
+    .navMobile img{
+        width: 5vw;
+    }
+    .title{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .title img{
+        width: 8vw;
+        margin-right: 10px;
+    }
+}
